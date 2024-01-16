@@ -1,6 +1,6 @@
 ---
 title: "Problem Set 01: Intro to R and RStudio"
-author: "Your Name Goes Here"
+author: "Carson Fouts"
 date: last-modified
 date-format: "[Last modified on] MMMM DD, YYYY HH:mm:ss zzz"
 format: 
@@ -195,7 +195,7 @@ Answer the following with code in a code chunk (no text necessary). Remember tha
 ::: {.callout-important icon="false" collapse="false" title="Problem 1 Answers"}
 ```{r}
 # Type your code and comments inside the code chunk
-
+y <- 7
 ```
 :::
 
