@@ -196,6 +196,7 @@ Answer the following with code in a code chunk (no text necessary). Remember tha
 ```{r}
 # Type your code and comments inside the code chunk
 y <- 7
+z <- x*y
 ```
 :::
 
@@ -207,10 +208,11 @@ y <- 7
 ::: {.callout-important icon="false" collapse="false" title="Problem 2 Answers"}
 ```{r}
 # Type your code and comments inside the code chunk
-
+6 + 3
+ans2 <- 6 + 3
 ```
 
--   Type your answer here and delete this sentence.
+-The answer **`r ans2`** appears under the code.
 :::
 
 ::: {.callout-note icon="false" title="Problem 3"}
