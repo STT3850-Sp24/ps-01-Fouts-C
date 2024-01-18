@@ -225,14 +225,16 @@ ans2 <- 6 + 3
 ::: {.callout-important icon="false" collapse="false" title="Problem 3 Answers"}
 ```{r}
 # Type your code and comments inside the code chunk
+a <- 6 + 3
+a
 
 ```
 
--   Type your answer here and delete this sentence.
+-   No, the answer doesn't appear.
 
--   Type your answer here and delete this sentence.
+-   you can see the answer in the environment stored in the variable a.
 
--   Type your answer here and delete this sentence.
+-   a shows up in the code chunk and the answer is printed on the line below.
 :::
 
 ::: callout-tip
@@ -247,10 +249,11 @@ It is a good idea to render your document from time to time as you make changes 
 ::: {.callout-important icon="false" collapse="false" title="Problem 4 Answers"}
 ```{r}
 # Type your code and comments inside the code chunk
+a^2
 
 ```
 
--   Type your answer here and delete this sentence.
+-   "^" raises the variable to the number given.
 :::
 
 ::: {.callout-note icon="false" title="Problem 5"}
@@ -261,10 +264,10 @@ It is a good idea to render your document from time to time as you make changes 
 ::: {.callout-important icon="false" collapse="false" title="Problem 5 Answers"}
 ```{r}
 # Type your code and comments inside the code chunk
-
+sum(a, x, y)
 ```
 
--   Type your answer here and delete this sentence.
+-   Sum adds together all the given parameters.
 :::
 
 ::: {.callout-note icon="false" title="Problem 6"}
@@ -272,7 +275,7 @@ It is a good idea to render your document from time to time as you make changes 
 :::
 
 ::: {.callout-important icon="false" collapse="false" title="Problem 6 Answers"}
--   Type your answer here and delete this sentence.
+-   It removed all the objects from the environment.
 :::
 
 ::: {.callout-note icon="false" title="Problem 7"}
@@ -281,7 +284,7 @@ It is a good idea to render your document from time to time as you make changes 
 :::
 
 ::: {.callout-important icon="false" collapse="false" title="Problem 7 Answers"}
--   Type your answer here and delete this sentence.
+-   The run button reloaded all the environment objects with their data that we just deleted.
 :::
 
 ::: {.callout-note icon="false" title="Problem 8"}
@@ -295,10 +298,10 @@ v + 2
 ::: {.callout-important icon="false" collapse="false" title="Problem 8 Answers"}
 ```{r}
 # Type your code and comments inside the code chunk
-
+v + 2
 ```
 
--   Type your answer here and delete this sentence.
+-   It adds 2 to each of number in the vector.
 :::
 
 ::: {.callout-note icon="false" title="Problem 9"}
@@ -312,10 +315,10 @@ music <- c("bluegrass", "funk", "folk")
 ::: {.callout-important icon="false" collapse="false" title="Problem 9 Answers"}
 ```{r}
 # Type your code and comments inside the code chunk
-
+music <- c("bluegrass", "funk", "folk")
 ```
 
--   Type your answer here and delete this sentence.
+-   R has chr before the vector and the types are in quotes. 
 :::
 
 ::: {.callout-note icon="false" title="Problem 10"}
@@ -335,7 +338,7 @@ What does Charlie Brown have to do with `R`?
 :::
 
 ::: {.callout-important icon="false" collapse="false" title="Extra Credit Answer"}
-**Type your answer here and delete this sentence.**
+**chaRlie bRown??? I have no idea.**
 :::
 
 # Turning in Your Work
